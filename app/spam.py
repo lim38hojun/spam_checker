@@ -3,7 +3,7 @@ def check_spam(text: str) -> str:
     if text == "":
         return "ham"
     spam_keywords = [
-    "free", "win", "winner", "prize", "click",
+    "free", "win", "prize", "click",
     "buy now", "urgent", "cash", "money", "offer", "deal",
     "bonus", "limited", "guarantee",
     "무료", "당첨", "당첨자", "경품", "클릭",
